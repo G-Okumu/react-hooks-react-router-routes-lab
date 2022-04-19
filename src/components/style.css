@@ -1,0 +1,23 @@
+a {
+    color: #545e6f;
+    text-decoration: none;
+  }
+  
+
+.nav {
+  margin: "0 6px 6px";
+    display: "inline-block"
+  }
+.nav a {
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-right: 10px;
+  }
+  
+  .nav a.active {
+    color: #fff;
+    background: blue;
+  }
+  .nav a.inactive {
+    font-style: italic;
+  }
